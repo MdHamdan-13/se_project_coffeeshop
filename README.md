@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Project: Triple Peaks Coffee Shop
+- The function of this project providing customer simple access to menu items that coffeeshop offer and place to book tables.
