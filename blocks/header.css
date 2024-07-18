@@ -21,17 +21,15 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
-  font-size: 60px;
-  line-height: 72px;
   margin: 183px 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   color: #2f80ed;
   display: block;
 }
@@ -46,6 +44,8 @@
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
+  position: relative;
+  z-index: 2;
 }
 
 .header__image {
@@ -60,6 +60,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: end;
 }
 
 .header__paragraph {
@@ -68,6 +69,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;
+  color: #6f6f6f;
   margin: 0;
 }

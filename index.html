@@ -111,6 +111,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="number" class="form__label"
@@ -120,6 +121,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="number"
+                  required
                 />
               </label>
               <label for="datetime" class="form__label"
@@ -128,6 +130,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="datetime"
+                  required
                 />
               </label>
               <label for="email" class="form__label"
@@ -137,6 +140,7 @@
                   class="form__input"
                   placeholder="email@gmail.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
@@ -145,7 +149,12 @@
               for="booktable"
               class="form__label form__label_type_checkbox"
             >
-              <input type="checkbox" class="form__checkbox" id="booktable" />
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="booktable"
+                required
+              />
               I agree with the terms of use
             </label>
           </form>
